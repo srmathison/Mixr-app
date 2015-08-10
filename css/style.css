@@ -1,0 +1,433 @@
+body {
+  background-image: url(http://waynecarrickband.co.uk/wp-content/uploads/2014/11/dark-wall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  }
+
+.bg {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background-color: rgba( 0, 0, 0, 0.7 );
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.first-choice{
+  display: none;
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+.second-choice{
+  display: none;
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+.third-choice{
+  display: none;
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+.fourth-choice{
+  display: none;
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+#up-drink{
+  display: none;
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+#rocks-drink{
+  display: none;
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+.taco {
+  text-align: center;
+  font-size: 80px;
+  line-height: .8;
+  color:#14a5ff;
+  text-shadow: 0 0 1px #22cef9, 0 0 2px #22cef9, 0 0 6px #22cef9, 0 0 12px #22cef9;
+}
+
+.blurb{
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 25px;
+  line-height: 1;
+  padding-bottom: 12%;
+  margin-top: -1%;
+}
+
+.recipe {
+  font-family: Quicksand;
+  font-size: 18px;
+}
+
+.source {
+  font-family: Quicksand;
+  text-align: center;
+  color: grey;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover { 
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+h1 {
+  font-family: League Script;
+  font-size: 100px;
+  
+}
+
+.pick {
+  font-size: 60px;
+  text-transform: uppercase;
+  background-image: url(http://waynecarrickband.co.uk/wp-content/uploads/2014/11/dark-wall.jpg);
+  background-size: 500px 500px;
+  background-position: top;
+  margin-top: -9%;
+  /*border: 3px solid white;*/
+}
+
+img {
+  float: right;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}
+.mixr, .pick {
+  font-family: Quicksand;
+  color:#f90000;
+  text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+}
+
+/*p {
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+}*/
+
+.welcome {
+  
+  color:#14a5ff;
+  font-size: 45px;
+  font-family: League Script;
+  text-shadow: 0 0 1px #22cef9, 0 0 2px #22cef9, 0 0 6px #22cef9, 0 0 12px #22cef9;
+  
+}
+
+
+.open-text {
+  font-family: Quicksand;
+  font-size: 20px;
+  padding: 55px;
+}
+
+.or {
+  text-transform: uppercase;
+  font-family: Quicksand;
+  font-size: 20px;
+  color:#f90000;
+  text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9); 
+}
+
+.Up { 
+  width: 90%;
+  height: 150px;
+  /*background-image: url('../upicon.png');*/
+  /*border-radius: 10%;*/
+  background-repeat: no-repeat;
+  background-size: 65% 65%;
+  color:#14a5ff;
+  font-size: 100px;
+  font-family: League Script;
+  text-shadow: 0 0 1px #22cef9, 0 0 2px #22cef9, 0 0 6px #22cef9, 0 0 12px #22cef9;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  /*neon glow*/
+  /*box-shadow: 0 0 1px #ffffad, 
+              0 0 2px #ffffad, 
+              0 0 6px #ffffad, 
+              0 0 12px #ffffad, 
+              inset 0 0 1px #ffffad, 
+              inset 0 0 2px #ffffad, 
+              inset 0 0 6px #ffffad, 
+              inset 0 0 12px #ffffad;*/
+  /*border: 3px solid white;*/
+}
+
+.Up:hover {
+  cursor: inherit;
+}
+
+.On-The-Rocks { 
+  width: 90%;
+  height: 150px;
+  color:#14a5ff;
+  font-size: 100px;
+  font-family: League Script;
+  text-shadow: 0 0 1px #22cef9, 0 0 2px #22cef9, 0 0 6px #22cef9, 0 0 12px #22cef9;
+  background-position: center;
+  margin: 0 auto;
+  /*margin-bottom: 5%;*/
+
+}
+
+.Savory { 
+  width: 90%;
+  height: 175px;
+  color:#14a5ff;
+  font-size: 100px;
+  font-family: League Script;
+  text-shadow: 0 0 1px #22cef9, 0 0 2px #22cef9, 0 0 6px #22cef9, 0 0 12px #22cef9;
+  background-position: center;
+  margin: 0 auto;
+  /*margin-bottom: 5%;*/
+
+}
+
+.Sweet { 
+ width: 90%;
+  height: 175px;
+  color:#14a5ff;
+  font-size: 100px;
+  font-family: League Script;
+  text-shadow: 0 0 1px #22cef9, 0 0 2px #22cef9, 0 0 6px #22cef9, 0 0 12px #22cef9;
+  background-position: center;
+  margin: 0 auto;
+  /*margin-bottom: 5%;*/
+ 
+}
+
+#question-container  {
+  border: 3px solid #0cd808;
+  box-shadow: 0 0 1px #b3ff51, 
+              0 0 2px #b3ff51, 
+              0 0 6px #b3ff51, 
+              0 0 12px #b3ff51, 
+              inset 0 0 1px #b3ff51, 
+              inset 0 0 2px #b3ff51, 
+              inset 0 0 6px #b3ff51, 
+              inset 0 0 12px #b3ff51;
+  border-radius: 10px;
+  height: 450px;
+  margin-top: 5%;
+  background-color: rgba( 0, 0, 0, 0.3 );
+}
+
+.front {
+  border: 3px solid black;
+  box-shadow: 0 0 1px grey, 
+              0 0 2px grey, 
+              0 0 6px grey, 
+              0 0 12px grey, 
+              inset 0 0 1px black, 
+              inset 0 0 2px black, 
+              inset 0 0 6px black, 
+              inset 0 0 12px black;
+  border-radius: 10px;
+  height: 450px;
+  width: 60%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.bg {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+#question {
+  width: 85%;
+  /*border: 3px solid yellow;*/
+}
+
+.flicker {
+ display: inline;
+ animation: flicker 2.6s infinite;
+ -webkit-animation: flicker 2.6s infinite;
+}
+
+@keyframes flicker {
+ 0% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 5% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 6% {
+   color: #000;
+   text-shadow: none;
+ }
+ 12% {
+   color: #000;
+   text-shadow: none;
+ }
+ 13% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 25% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 26% {
+   color: #000;
+   text-shadow: none;
+ }
+ 30% {
+   color: #000;
+   text-shadow: none;
+ }
+ 31% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 100% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+}
+
+@-webkit-keyframes flicker {
+ 0% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 5% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 6% {
+   color: #000;
+   text-shadow: none;
+ }
+ 12% {
+   color: #000;
+   text-shadow: none;
+ }
+ 13% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 25% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 26% {
+   color: #000;
+   text-shadow: none;
+ }
+ 30% {
+   color: #000;
+   text-shadow: none;
+ }
+ 31% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+ 100% {
+   color: #f90000 ;
+   text-shadow: 0px 0px 5px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 10px #ff1919 , 0px 0px 80px rgba(255, 25, 25, 0.6), 0px 0px 100px rgba(255, 25, 25, 0.9);
+ }
+}
+
